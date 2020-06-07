@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/index.js"],"names":["Home"],"mappings":"2FAAA,kFAEe,SAASA,IACtB,OAAO,8C","file":"component---src-pages-index-js-5f0b535b070802e864f0.js","sourcesContent":["import React from \"react\";\nimport \"../scss/main.scss\";\nexport default function Home() {\n  return <h1>Hola Austin!</h1>;\n}\n"],"sourceRoot":""}
