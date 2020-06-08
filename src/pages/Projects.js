@@ -1,11 +1,17 @@
 import React from "react";
-import Header from "../components/Header";
 import Layout from "../components/Layout";
+import ProjectCard from "../components/ProjectCard";
 
 export default function Projects() {
   return (
     <Layout>
-      <Header title="Projects" />
+      <section>
+        <h1>Projects</h1>
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+      </section>
     </Layout>
   );
 }

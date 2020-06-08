@@ -1,0 +1,13 @@
+.project-card:nth-child(odd) {
+  background-color: darkgray;
+}
+
+.project-card:nth-child(even) {
+  background-color: lightgray;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}

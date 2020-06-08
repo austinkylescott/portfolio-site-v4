@@ -18,6 +18,7 @@
 .burger .burger-lines,
 .burger .burger-lines::before,
 .burger .burger-lines::after {
+  z-index: 99;
   // font-size: 5px;
 }
 
@@ -34,8 +35,8 @@
 
     background: gray;
     width: 100vw;
-    // height: 100vh;
-    // position: absolute;
+    height: 100vh;
+    position: absolute;
   }
 
   .menu-button {
