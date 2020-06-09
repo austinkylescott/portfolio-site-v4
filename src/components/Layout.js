@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "../scss/main.scss";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -9,9 +10,12 @@ library.add(fab, faDesktop);
 
 export default function Layout(props) {
   return (
-    <div>
-      <Header />
-      {props.children}
+    <div className="page-container">
+      <div className="content-wrap">
+        <Header />
+        {props.children}
+      </div>
+      <Footer />
     </div>
   );
 }

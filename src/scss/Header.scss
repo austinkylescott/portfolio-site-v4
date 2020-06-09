@@ -6,19 +6,19 @@
 .nav {
   grid-area: nav;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(3, auto);
   align-items: center;
   justify-items: center;
 }
 
 .menu-button {
   display: none;
+  z-index: 2;
 }
 
 .burger .burger-lines,
 .burger .burger-lines::before,
 .burger .burger-lines::after {
-  z-index: 99;
   // font-size: 5px;
 }
 
@@ -29,9 +29,10 @@
   }
 
   .nav {
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
     grid-template-columns: none;
     // row-gap: 1rem;
+    z-index: 1;
 
     background: gray;
     width: 100vw;
